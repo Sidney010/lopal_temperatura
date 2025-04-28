@@ -2,8 +2,11 @@ package br.dev.sidney.temperatura.model;
 
 public class Temperatura {
 	
+	//Torna a celsius privado
 	private double celsius;
-
+	
+	//Metodos Get e Set para acessar e atribuir valores
+	
 	public double getCelsius() {
 		return celsius;
 	}
@@ -11,6 +14,7 @@ public class Temperatura {
 	public void setCelsius(double celsius) {
 		this.celsius = celsius;
 	}
+	
 	
 	public double converterParaKelvin() {
 		
