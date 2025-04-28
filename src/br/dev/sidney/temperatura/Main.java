@@ -7,6 +7,8 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		//Cria uma tela
 		TelaConversor tela = new TelaConversor();
 		tela.criarTelaConversor();
 
