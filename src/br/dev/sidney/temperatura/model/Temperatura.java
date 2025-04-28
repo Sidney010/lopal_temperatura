@@ -15,7 +15,7 @@ public class Temperatura {
 		this.celsius = celsius;
 	}
 	
-	
+	//Calculo de conversão, retorna kelvin
 	public double converterParaKelvin() {
 		
 		double kelvin = celsius + 273;
@@ -23,6 +23,7 @@ public class Temperatura {
 		
 	}
 	
+	//Calculo de conversão,retorna fahreinheit
 	public double converterParaFahreinheit() {
 		
 		double fahreinheit = celsius*1.8 + 32;
